@@ -1,0 +1,109 @@
+body{
+  font-family: 'neue_montreal', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
+}
+
+.italic{
+  font-weight:normal;
+  font-style:italic;
+  }
+
+.main_content{
+  margin-left: 0pt;
+  position: relative;
+  font-size: 17pt;
+  /*border: 5px solid black;*/
+  /*height: 100vh;*/
+
+
+
+}
+
+.inside_content{
+  margin-left: 17pt;
+  position: relative;
+  /*border: 5px solid red;*/
+
+}
+
+#first_ph{
+  position: absolute;
+  top: 25vh;
+  transform: translate(0,-75%);
+}
+
+
+#second_ph{
+  position: absolute;
+  top: 50vh;
+
+  transform: translate(0,-100%);
+}
+
+.contact{
+  font-size: 17pt;
+  position: absolute;
+  top: 100%;
+  transform: translate(0,-110%);
+
+}
+
+a.blue_link:visited, a.blue_link:hover, a.blue_link:active, a.blue_link:link{
+  color: #0000FF;
+}
+
+a.black_link:visited, a.black_link:hover, a.black_link:active, a.black_link:link{
+  color: #000000;
+}
+
+a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link{
+  color: #000000;
+  text-decoration: none;
+}
+
+.blue_text{
+  color: #0000FF;
+  font-size: 8pt;
+  position: absolute;
+  top: 0;
+
+}
+
+.DL_CV{
+  float: right;
+  position: fixed;
+  right: 10px;
+  margin-top: 4%;
+  border-bottom-style: dashed;
+  border-width: 2px;
+  border-color: #0000FF;
+  z-index: 1;
+
+}
+
+.arrow{
+  float: right;
+  position: fixed;
+  right: 10px;
+  z-index: 1;
+
+}
+
+.arrow_img{
+  width: 30px;
+
+  object-fit: contain;
+
+
+}
+
+.works{
+  position: absolute;
+  right: 10px;
+
+
+}
+.slideshow{
+  width: 200px;
+}
