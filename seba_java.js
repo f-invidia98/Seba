@@ -38,5 +38,5 @@ function showSlides() {
   }
 
 
-  setTimeout(showSlides, 500); // Change image every 2 seconds
+  setTimeout(showSlides, 200); // Change image every 2 seconds
 }
