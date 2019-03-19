@@ -44,8 +44,8 @@ body{
 
 .contact{
   position: absolute;
-  top: 100%;
-  transform: translate(0,-110%);
+  bottom: 0%;
+
 }
 
 a.blue_link:visited, a.blue_link:hover, a.blue_link:active, a.blue_link:link{
