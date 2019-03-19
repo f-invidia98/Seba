@@ -10,7 +10,7 @@ body{
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .break_desktop{
     display: none;
   }
@@ -23,7 +23,7 @@ body{
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .break_mobile{
     display: block;
 
@@ -41,7 +41,7 @@ body{
   font-size: 17pt;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .main_content{
     font-size: 12pt;
   }
@@ -76,7 +76,7 @@ body{
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .contact{
     font-size: 12pt;
   }
@@ -95,7 +95,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   a.blue_link:visited, a.blue_link:hover, a.blue_link:active, a.blue_link:link{
     font-weight: bold;
     font-size: 15pt
@@ -122,7 +122,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .DL_CV{
     font-size: 10pt;
     margin-top: 45px;
@@ -142,7 +142,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .arrow{
     top: 20px;
   }
@@ -157,7 +157,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .arrow_img{
     width: 17px;
 
@@ -177,7 +177,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
  display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .slideshow{
    max-width: 370px;
 
@@ -196,7 +196,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .numero_div{
     position: relative;
     top: 60vh;
