@@ -1,42 +1,44 @@
-
-
-
-
 var slideIndex = 0;
-showSlides();
+var stateSlide=1;
+var works_var = $(".works")
+var text_var=1;
+var numero_var=1;
+var project_number = $(".project"+stateSlide);
+var hide;
 
-function showSlides() {
+showSlides(project_number);
+text();
 
+function showSlides(slides) {
   var i;
-  var slides = $(".slideshow")
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
+  if (slideIndex > slides.length) {
+    slideIndex=1;
+    stateSlide++;
+    text_var++;
+    numero_var++;
+
+    if (stateSlide==4) {
+      stateSlide=1;
+      text_var=1;
+      numero_var=1;
+    }
+    text();
+    slides = $(".project"+stateSlide)
+  }
   slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 500, slides);
 
-  if (slideIndex==1) {
-    $('.first_line').html('prima immagine');
-    $('.second_line').html('spero');
-  }
-  if (slideIndex==2) {
-    $('.first_line').html('seconda immagine');
-    $('.second_line').html('vada');
-  }
-  if (slideIndex==3) {
-    $('.first_line').html('terza immagine');
-    $('.second_line').html('bene');
-  }
-  if (slideIndex==4) {
-    $('.first_line').html('quarta immagine');
-    $('.second_line').html('ciao');
-  }
-  if (slideIndex==5) {
-    $('.first_line').html('quinta immagine');
-    $('.second_line').html('seba');
-  }
+}
 
+function text(){
+var f_line = $('.text_'+ text_var).html();
+var f_line_2 = $('.text_2_'+ text_var).html();
+$('.first_line').html(f_line);
+$('.second_line').html(f_line_2);
+$('.numero_div').html(numero_var);
 
-  setTimeout(showSlides, 200); // Change image every 2 seconds
 }
