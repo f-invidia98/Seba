@@ -44,7 +44,7 @@ body{
 
 .camilla{
   position: absolute;
-  top: 80%;
+  bottom: 0%;
 
 }
 
@@ -112,7 +112,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   transform: translate(0,-100%);
 }
 
-@media only screen and (max-width: 1125px) {
+@media only all and (max-width: 1125px) {
 
   body{
     font-size: 12pt;
