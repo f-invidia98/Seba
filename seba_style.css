@@ -42,7 +42,7 @@ body{
   transform: translate(0,-100%);
 }
 
-.camilla{
+.contacts{
   position: absolute;
   bottom: 0%;
 
@@ -112,7 +112,27 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   transform: translate(0,-100%);
 }
 
-@media only all and (max-width: 1125px) {
+@media only screen and (min-width: 600px) and (max-width: 1024px){
+  body{
+    font-size: 15pt;
+  }
+
+  a.blue_link:visited, a.blue_link:hover, a.blue_link:active, a.blue_link:link{
+    font-weight: bold;
+    font-size: 17pt
+  }
+
+  .break_desktop{
+    display: none;
+  }
+
+  .break_mobile{
+    display: block;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
 
   body{
     font-size: 12pt;
