@@ -148,7 +148,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   }
 
   .slideshow{
-   max-width: 370px;
+   max-width: 90vw;
   }
 
   a.blue_link:visited, a.blue_link:hover, a.blue_link:active, a.blue_link:link{
@@ -160,7 +160,6 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
     font-size: 10pt;
     margin-top: 45px;
     border-width: 1px;
-
   }
 
   .arrow{
@@ -172,7 +171,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   }
 
   .numero_div{
-    position: relative;
+    position: absolute;
     top: 60vh;
   }
 }
