@@ -72,18 +72,19 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   float: right;
   position: fixed;
   right: 10px;
-  margin-top: 100px;
+  margin-top: 80px;
   border-bottom-style: dashed;
   border-width: 2px;
   border-color: #0000FF;
   z-index: 1;
+  font-size: 13pt;
 }
 
 .arrow{
   float: right;
   position: fixed;
   right: 10px;
-  top: 30px;
+  top: 10px;
   z-index: 1;
 }
 
@@ -132,7 +133,15 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 
   .numero_div{
     position: absolute;
-    top: 80vh;
+    top: 70vh;
+  }
+
+  .arrow{
+    top: 10px;
+  }
+
+  .arrow_img{
+    width: 17px;
   }
 }
 
