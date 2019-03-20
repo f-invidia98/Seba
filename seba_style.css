@@ -43,7 +43,7 @@ body{
 }
 
 .contacts{
-  position: absolute;
+  position: relative;
   bottom: 0%;
 
 }
@@ -125,16 +125,6 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 
   .break_desktop{
     display: none;
-  }
-
-  #first_ph{
-
-    top: 20vh;
-
-  }
-
-  #second_ph{
-    top: 10vh;
   }
 
 
