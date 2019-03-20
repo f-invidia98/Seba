@@ -113,7 +113,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   transform: translate(0,-100%);
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1024px){
+@media only screen and (min-width: 740px) and (max-width: 1024px){
   body{
     font-size: 15pt;
   }
@@ -126,6 +126,18 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   .break_desktop{
     display: none;
   }
+
+  #first_ph{
+
+    top: 20vh;
+
+  }
+
+  #second_ph{
+    position: relative;
+    top: 25vh;
+  }
+
 
   .break_mobile{
     display: block;
