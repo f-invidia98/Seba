@@ -23,7 +23,6 @@ body{
 .main_content{
   margin-left: 0pt;
   position: relative;
-  height: max-content;
 }
 
 .inside_content{
@@ -44,9 +43,8 @@ body{
 }
 
 .contacts{
-  position: absolute;
-  top: 100vh;
-  transform: translate(0,-120%);
+  position: fixed;
+  bottom: 0%;
 }
 
 a.blue_link:visited, a.blue_link:hover, a.blue_link:active, a.blue_link:link{
