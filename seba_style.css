@@ -43,8 +43,9 @@ body{
 }
 
 .contacts{
-  position: fixed;
-  bottom: 0%;
+  position: relative;
+  top: 10vh;
+  transform: translate(0,-100%);
 
 }
 
