@@ -43,7 +43,7 @@ body{
 }
 
 .contacts{
-  position: relative;
+  position: fixed;
   bottom: 0%;
 
 }
