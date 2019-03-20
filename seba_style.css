@@ -45,7 +45,7 @@ body{
 }
 
 .contacts{
-
+  position: absolute;
   top: 100%;
   transform: translate(0,-100%);
 
@@ -116,7 +116,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   transform: translate(0,-100%);
 }
 
-@media only all and (min-width: 740px) and (max-width: 1024px){
+@media only screen and (min-width: 740px) and (max-width: 1024px){
   body{
     font-size: 15pt;
   }
@@ -149,7 +149,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 740px) {
 
   body{
     font-size: 12pt;
