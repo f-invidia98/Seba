@@ -23,6 +23,8 @@ body{
 .main_content{
   margin-left: 0pt;
   position: relative;
+  height: 100vh;
+
 }
 
 .inside_content{
@@ -43,8 +45,8 @@ body{
 }
 
 .contacts{
-  position: relative;
-  top: 10vh;
+  position: absolute;
+  top: 100%;
   transform: translate(0,-100%);
 
 }
