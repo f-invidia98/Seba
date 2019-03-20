@@ -134,8 +134,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   }
 
   #second_ph{
-    position: relative;
-    top: 25vh;
+    top: 10vh;
   }
 
 
