@@ -22,6 +22,7 @@ body{
 
 .main_content{
   margin-left: 0pt;
+  /* height: fit-content; */
 }
 
 .inside_content{
@@ -32,18 +33,19 @@ body{
 #first_ph{
   position: relative;
   top: 20vh;
-  transform: translate(0,-75%);
+  /* transform: translate(0,-75%); */
 }
 
 #second_ph{
   position: relative;
   top: 37vh;
-  transform: translate(0,-100%);
+  /* transform: translate(0,-100%); */
 }
 
 .contacts{
   position: relative;
-  bottom: 0%;
+  top: 67vh;
+  /* transform: translate(0,-300%); */
 }
 
 a.blue_link:visited, a.blue_link:hover, a.blue_link:active, a.blue_link:link{
