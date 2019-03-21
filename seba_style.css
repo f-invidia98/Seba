@@ -1,5 +1,6 @@
 *{
   cursor: url('immagini/cursor.png'), auto;
+
 }
 
 body{
@@ -7,6 +8,8 @@ body{
   font-weight:normal;
   font-style:normal;
   font-size: 17pt;
+  max-height: 100vh;
+  margin: 0;
 }
 
 .break_mobile{
@@ -21,8 +24,16 @@ body{
 }
 
 .main_content{
-  margin-left: 0pt;
-  /* height: fit-content; */
+  height: 98vh;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.main_works{
+  position: relative;
+  
+  margin: 0;
+  height: 98vh;
 }
 
 .inside_content{
@@ -30,23 +41,34 @@ body{
   position: relative;
 }
 
+
+#introduction{
+  position: relative;
+  top: 0vh;
+  height: 20%;
+}
+
+
 #first_ph{
   position: relative;
-  top: 20vh;
+  /* top: 20%; */
+  height: 24%;
   /* transform: translate(0,-75%); */
 }
 
 #second_ph{
   position: relative;
-  top: 37vh;
+  /* top: 37%; */
+  height: 56%;
   /* transform: translate(0,-100%); */
 }
 
 .contacts{
   position: relative;
-  top: 67vh;
-  /* transform: translate(0,-300%); */
+  /* top: 67%; */
+  transform: translate(0,-100%);
 }
+
 
 a.blue_link:visited, a.blue_link:hover, a.blue_link:active, a.blue_link:link{
   color: #0000FF;
@@ -64,7 +86,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 .blue_text{
   color: #0000FF;
   font-size: 8pt;
-  position: absolute;
+  position: relative;
   top: 0;
 }
 
@@ -95,6 +117,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 
 .works{
   position: absolute;
+  top: 12%;
   right: 10px;
 }
 
@@ -109,13 +132,14 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 
 .numero_div{
   position: relative;
-  top: 37vh;
+  top: 40vh;
   transform: translate(0,-100%);
 }
 
 @media only screen and (min-width: 740px) and (max-width: 1024px){
   body{
     font-size: 15pt;
+    margin: 0;
   }
 
   a.blue_link:visited, a.blue_link:hover, a.blue_link:active, a.blue_link:link{
