@@ -69,6 +69,14 @@ body{
   transform: translate(0,-100%);
 }
 
+.first_line{
+  position: relative;
+}
+
+.second_line{
+  position: relative;
+}
+
 
 a.blue_link:visited, a.blue_link:hover, a.blue_link:active, a.blue_link:link{
   color: #0000FF;
