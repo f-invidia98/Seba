@@ -186,7 +186,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
     position: relative;
     top: 3%;
     float: right;
-    right: 7px;
+    right: 10px;
   }
 }
 
@@ -237,6 +237,6 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
     position: relative;
     top: 3%;
     float: right;
-    right: 7px;
+    right: 10px;
   }
 }
