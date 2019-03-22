@@ -174,11 +174,12 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   }
 
   .arrow_img{
+    position: relative;
     width: 17px;
   }
 
   .slideshow{
-   max-width: 150vw;
+   max-width: 80vw;
   }
 }
 
