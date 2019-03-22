@@ -31,7 +31,7 @@ body{
 
 .main_works{
   position: relative;
-  
+
   margin: 0;
   height: 98vh;
 }
@@ -116,7 +116,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 }
 
 .works{
-  position: absolute;
+  position: relative;
   top: 12%;
   right: 10px;
 }
