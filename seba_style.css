@@ -100,7 +100,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 
 .DL_CV{
   float: right;
-  position: fixed;
+  position: relative;
   right: 10px;
   margin-top: 80px;
   border-bottom-style: dashed;
@@ -112,7 +112,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 
 .arrow{
   float: right;
-  position: fixed;
+  position: relative;
   right: 10px;
   top: 10px;
   z-index: 1;
@@ -124,7 +124,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 }
 
 .works{
-  position: absolute;
+  position: relative;
   top: 12%;
   right: 10px;
 }
@@ -165,17 +165,15 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   }
 
   .numero_div{
-    position: absolute;
+    position: relative;
     top: 70vh;
   }
 
   .arrow{
-      position: relative;
     top: 10px;
   }
 
   .arrow_img{
-
     width: 17px;
   }
 
@@ -223,7 +221,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   }
 
   .numero_div{
-    position: absolute;
+    position: relative;
     top: 60vh;
   }
 }
