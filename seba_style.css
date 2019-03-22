@@ -31,6 +31,7 @@ body{
 
 .main_works{
   position: relative;
+  height: fit-content;
 
   margin: 0;
   height: 98vh;
@@ -180,6 +181,13 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   .slideshow{
    max-width: 90vw;
   }
+
+  .works{
+    position: relative;
+    top: 3%;
+    float: right;
+    right: 7px;
+  }
 }
 
 @media only screen and (max-width: 740px) {
@@ -223,5 +231,12 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
   .numero_div{
     position: absolute;
     top: 60vh;
+  }
+
+  .works{
+    position: relative;
+    top: 3%;
+    float: right;
+    right: 7px;
   }
 }
