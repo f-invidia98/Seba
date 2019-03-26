@@ -7,7 +7,7 @@ body{
   font-family: 'neue_montreal', Arial, sans-serif;
   font-weight:normal;
   font-style:normal;
-  font-size: 17pt;
+  font-size: 20pt;
   max-height: 100vh;
   margin: 0;
 }
@@ -147,7 +147,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 
 @media only screen and (min-width: 740px) and (max-width: 1024px){
   body{
-    font-size: 15pt;
+    font-size: 17pt;
     margin: 0;
   }
 
@@ -193,7 +193,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 @media only screen and (max-width: 740px) {
 
   body{
-    font-size: 12pt;
+    font-size: 15pt;
   }
 
   .break_desktop{
