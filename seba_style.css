@@ -153,7 +153,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 
   a.blue_link:visited, a.blue_link:hover, a.blue_link:active, a.blue_link:link{
     font-weight: bold;
-    font-size: 17pt
+    font-size: 17pt;
   }
 
   .break_desktop{
