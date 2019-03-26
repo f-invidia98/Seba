@@ -193,7 +193,7 @@ a.plain_link:visited, a.plain_link:hover, a.plain_link:active, a.plain_link:link
 @media only screen and (max-width: 740px) {
 
   body{
-    font-size: 2.2vh;
+    font-size: 3vh;
   }
 
   .break_desktop{
