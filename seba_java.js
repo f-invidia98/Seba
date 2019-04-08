@@ -1,6 +1,7 @@
 var slideIndex = 0;
 var stateSlide=1;
 var works_var = $(".works")
+var works_l=works_var.length+1;
 var text_var=1;
 var numero_var=1;
 var project_number = $(".project"+stateSlide);
@@ -21,7 +22,8 @@ function showSlides(slides) {
     text_var++;
     numero_var++;
 
-    if (stateSlide==4) {
+
+    if (stateSlide==works_l) {
       stateSlide=1;
       text_var=1;
       numero_var=1;
