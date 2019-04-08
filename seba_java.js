@@ -32,7 +32,7 @@ function showSlides(slides) {
     slides = $(".project"+stateSlide)
   }
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 500, slides);
+  setTimeout(showSlides, 400, slides);
 
 }
 
